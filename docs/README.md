@@ -1,0 +1,9 @@
+# OctoAcme Project Management Overview
+
+OctoAcme moves work through initiation, planning, execution, release, and retrospective. Initiation validates the business need and defines goals, success metrics, stakeholders, milestones, risks, and resource needs in a project one-pager. After Product Lead review and stakeholder alignment, planning turns the approved work into a prioritized, estimated backlog with acceptance criteria, a Definition of Done, milestones, and identified dependencies.
+
+During execution, the team tracks work on a project board, typically moving items through Backlog, Ready, In Progress, In Review, QA, and Done. Project Managers coordinate delivery, schedules, risks, and communication; Product Managers set outcomes and priorities; developers implement and test; QA validates acceptance; and stakeholders provide input and approvals. Small pull requests should link to issues and acceptance criteria, pass CI, and receive at least one approval or the team’s agreed review level before merge.
+
+Communication keeps delivery aligned and blockers visible: teams use standups, weekly delivery or PM–Product syncs, milestone demos, and regular stakeholder updates. The Project README or release documentation provides a shared status source. Risks and dependencies are tracked and revisited regularly, with escalation from the team to the Project Manager, Product Lead, and sponsor when needed.
+
+Quality is integrated throughout delivery. New logic should have unit tests, integration tests are used where appropriate, and critical flows receive end-to-end smoke tests; CI runs automated tests, linting, and security scans. Release readiness includes meeting acceptance criteria, preparing release notes and rollback plans, testing in staging, and verifying after deployment. Retrospectives after sprints, releases, milestones, or incidents turn lessons into a few owned and trackable improvement actions.
